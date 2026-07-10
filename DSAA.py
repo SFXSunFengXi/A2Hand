@@ -38,9 +38,9 @@ class DualStreamAdditiveAttention(nn.Module):
     def forward(self, x):
         """
         Args:
-            x: [B, N, C] 输入特征, 如[B, 21, 256] (21个手部关节)
+            x: [B, N, C]
         Returns:
-            [B, N, C] 增强后的特征
+            [B, N, C]
         """
         B, N, C = x.shape
 
