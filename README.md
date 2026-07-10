@@ -1,5 +1,6 @@
 # A2Hand
-<img width="2022" height="864" alt="图片" src="https://github.com/user-attachments/assets/a48bf0c1-c21b-4b65-89b4-7bb2d70c0c80" />
+<img width="2649" height="1168" alt="0ab96db8-cefc-4cc7-a627-53bb22efcaab" src="https://github.com/user-attachments/assets/023aeb67-74e4-4b47-8a22-934c11d11bbb" />
+
 
 # A2Hand: End-to-End 3D Hand Reconstruction via Auxiliary-Guided Training and Lightweight Attention
 
