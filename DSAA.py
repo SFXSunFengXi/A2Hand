@@ -54,7 +54,7 @@ class DualStreamAdditiveAttention(nn.Module):
         key = key.view(B, N, self.num_heads, self.head_dims).transpose(1, 2)  # [B,H,N,D]
 
         query_weight = torch.matmul(query, self.w_g) * self.scale_factor
-        query_weight2 = torch.matmul(query.transpose(3, 2)) * self.scale_factor
+        query_weight2 = torch.matmul(query.transpose(3, 2), self.w_g2) * self.scale_factor
         A = torch.nn.functional.normalize(query_weight, dim=2)
         A2 = F.softmax(query_weight2,dim=3).transpose(3,2)
 
